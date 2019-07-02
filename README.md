@@ -1,5 +1,7 @@
 # AuthApp
 
+This app uses Auth0 to login users with different services such as Facebook, Github or Google in order to access a specific route that shows profile info of this logged user.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
 ## Development server
