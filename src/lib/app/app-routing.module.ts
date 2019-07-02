@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CallbackComponent } from '../layout/components';
 
 const routes: Routes = [
   {
@@ -15,6 +16,10 @@ const routes: Routes = [
     path: 'protected',
     loadChildren: () =>
       import('../protected/protected.module').then(m => m.ProtectedModule)
+  },
+  {
+    path: 'callback',
+    component: CallbackComponent
   },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
