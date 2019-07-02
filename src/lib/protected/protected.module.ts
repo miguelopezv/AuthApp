@@ -5,7 +5,10 @@ import * as fromComponents from './components';
 import { Routes, RouterModule } from '@angular/router';
 
 const ROUTES: Routes = [
-  { path: '', component: fromComponents.ProtectedLayoutComponent }
+  {
+    path: '',
+    component: fromComponents.ProtectedLayoutComponent
+  }
 ];
 
 @NgModule({
